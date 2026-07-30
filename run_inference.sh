@@ -93,7 +93,7 @@ COMMON="
 --use_mamba=${USE_MAMBA}
 "
 TRAIN="
---data_dir=/home/evelyne/Documents/inpainting/2023split/train_2023
+--data_dir=/train_2023
 --resume_checkpoint=
 --resume_step=0
 --image_size=${IMAGE_SIZE_TRAIN}
@@ -105,7 +105,7 @@ TRAIN="
 --lr_anneal_steps=120000
 "
 SAMPLE="
---data_dir=/home/evelyne/Documents/inpainting/ASNR-MICCAI-BraTS2023-Local-Synthesis-Challenge-Validation
+--data_dir=/ASNR-MICCAI-BraTS2023-Local-Synthesis-Challenge-Validation
 --data_mode=${DATA_MODE}
 --use_sdt=True
 --seed=${SEED}
@@ -125,5 +125,5 @@ SAMPLE="
 if [[ $MODE == 'train' ]]; then
   python scripts/generation_train.py $TRAIN $COMMON;
 else
-  python scripts/generation_sample.py $SAMPLE $COMMON --diffusion_steps 2 --sampling_steps 2 --model_path /home/evelyne/Documents/inpainting/psnr21.4_change/runs/Jul26_18-08-54_evelyne/checkpoints/ema_0.9999_brats3dimage120000.pt --output_dir ./brats_v55_n0_s1_noconsensus_tta_RETESTCLEAN/ ;
+  python scripts/generation_sample.py $SAMPLE $COMMON --diffusion_steps 2 --sampling_steps 2 --model_path /checkpoints/brats3dimage.pt --output_dir ./brats_CLEAN/ ;
 fi
