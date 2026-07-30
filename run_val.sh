@@ -73,7 +73,7 @@ COMMON="
 --use_wgupdown=False
 "
 TRAIN="
---data_dir=/home/evelyne/Documents/inpainting/2023split/train_2023
+--data_dir=/train_2023
 --resume_checkpoint=
 --resume_step=0
 --image_size=${IMAGE_SIZE_TRAIN}
@@ -85,7 +85,7 @@ TRAIN="
 --lr_anneal_steps=120000
 "
 SAMPLE="
---data_dir=/home/evelyne/Documents/inpainting/2023split_1200_51/val_51
+--data_dir=/val_51
 --data_mode=${DATA_MODE}
 --seed=${SEED}
 --image_size=${IMAGE_SIZE_SAMPLE}
@@ -98,5 +98,5 @@ SAMPLE="
 if [[ $MODE == 'train' ]]; then
   python scripts/generation_train.py $TRAIN $COMMON;
 else
-  python scripts/generation_val.py $SAMPLE $COMMON --diffusion_steps 2 --sampling_steps 2 --model_path /home/evelyne/Documents/inpainting/fastWDM3D-main_ev/WDM3D/runs/Jul10_17-53-05_evelyne/checkpoints/brats3dimage120000.pt --output_dir ./sampling_output_1200_mambabottl1_internalval/ ;
+  python scripts/generation_val.py $SAMPLE $COMMON --diffusion_steps 2 --sampling_steps 2 --model_path /checkpoints/brats3dimage.pt --output_dir ./sampling_output/ ;
 fi
