@@ -52,8 +52,8 @@ When using this repository, please cite:
 
 
 ## Acknowledgements
-This repository uses dataset and code from the following projects:
-[BRaTS 2026 Inpainting Challenge](https://challenges.synapse.org/Challenges/DetailsPage/Task4?id=syn74274097), [fastWDM3D](https://github.com/AliciaDurrer/fastWDM3D)
+This repository uses dataset [BRaTS 2026 Inpainting Challenge](https://challenges.synapse.org/Challenges/DetailsPage/Task4?id=syn74274097).
+Thanks to Durrer et al. for releasing their code [fastWDM3D](https://github.com/AliciaDurrer/fastWDM3D).
 
 
 
