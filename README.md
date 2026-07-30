@@ -1,7 +1,3 @@
-# GAC-WaveDiff
-This repository is for Geometry-Aware Conditional 3D Wavelet Diffusion for Pseudo-Healthy Brain MRI Inpainting, in part of BRaTS 2026 Inpainting Challenge
-
-
 <div align="center">
 
 # GAC-WaveDiff
@@ -19,11 +15,11 @@ Yong-Sheng Chen<sup>1</sup> &nbsp; · &nbsp;
 ````markdown
 ## Overview
 
-Provide a concise explanation of the problem, proposed method, and main contribution.
+This repository is for Geometry-Aware Conditional 3D Wavelet Diffusion for Pseudo-Healthy Brain MRI Inpainting, in part of BRaTS 2026 Inpainting Challenge
 
 ## Installation
 Install dependencies:
-
+```bash
 ```conda env create -f environment.yml
 ```
 
