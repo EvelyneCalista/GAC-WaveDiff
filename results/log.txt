@@ -1,0 +1,16 @@
+Logging to ./results
+self.betas [0.08 0.12]
+self.alphas [0.92 0.88]
+self.sqrt_alphas_cumprod [0.9591663  0.89977775]
+self.sqrt_one_minus_alphas_cumprod [0.28284271 0.43634848]
+self.log_one_minus_alphas_cumprod [-2.52572864 -1.65862816]
+self.sqrt_recip_alphas_cumprod [1.04257207 1.11138556]
+self.sqrt_recipm1_alphas_cumprod [0.29488391 0.48495141]
+self.posterior_variance [0.         0.05042017]
+self.posterior_log_variance_clipped [-2.98736402 -2.98736402]
+self.posterior_mean_coef1 [1.         0.60451658]
+self.posterior_mean_coef2 [0.         0.39415258]
+[CONSENSUS] active windows: 1
+[CONSENSUS] flip TTA: True, axis: 0
+[CONSENSUS] timestep: 1
+[CONSENSUS] timestep: 0
