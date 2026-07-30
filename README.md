@@ -40,8 +40,6 @@ data/
 bash run.sh
 ```
 
-Describe important options, expected outputs, and checkpoint locations.
-
 ## Inference
 
 ```bash
