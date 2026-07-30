@@ -98,8 +98,8 @@ COMMON="
 --use_mamba=${USE_MAMBA}
 "
 TRAIN="
---data_dir=/home/evelyne/Documents/inpainting/2023split_1200_51/train_1200
---val_data_dir=/home/evelyne/Documents/inpainting/2023split_1200_51/val_51
+--data_dir=/train_1200
+--val_data_dir=/val_51
 --val_interval=500
 --val_batches=4
 --resume_checkpoint=
@@ -118,7 +118,7 @@ TRAIN="
 --rotation_prob=0.5
 "
 SAMPLE="
---data_dir=/home/evelyne/Documents/inpainting/2023split_1200_51/val_51
+--data_dir=/val_51
 --data_mode=${DATA_MODE}
 --seed=${SEED}
 --image_size=${IMAGE_SIZE_SAMPLE}
