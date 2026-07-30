@@ -20,7 +20,7 @@ This repository is for Geometry-Aware Conditional 3D Wavelet Diffusion for Pseud
 ## Installation
 Install dependencies:
 ```bash
-```conda env create -f environment.yml
+conda env create -f environment.yml
 ```
 
 ## Data Preparation
