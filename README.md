@@ -14,7 +14,9 @@ Yong-Sheng Chen<sup>1</sup> &nbsp; · &nbsp;
 ## Overview
 
 This repository is for Geometry-Aware Conditional 3D Wavelet Diffusion for Pseudo-Healthy Brain MRI Inpainting, in part of BraTS 2026 Inpainting Challenge
-
+<p align="center">
+  <img src="assets/compare_demo.gif" width="900">
+</p>
 ## Installation
 Install dependencies:
 ```bash
@@ -55,7 +57,7 @@ When using this repository, please cite:
 This repository uses dataset [BraTS 2026 Inpainting Challenge](https://challenges.synapse.org/Challenges/DetailsPage/Task4?id=syn74274097).
 Thanks to Durrer et al. for releasing their code [fastWDM3D](https://github.com/AliciaDurrer/fastWDM3D).
 
-![Uploading compare_demo_github.gif…]()
+
 
 
 
