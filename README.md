@@ -14,9 +14,12 @@ Yong-Sheng Chen<sup>1</sup> &nbsp; · &nbsp;
 ## Overview
 
 This repository is for Geometry-Aware Conditional 3D Wavelet Diffusion for Pseudo-Healthy Brain MRI Inpainting, in part of BraTS 2026 Inpainting Challenge
+
 <p align="center">
   <img src="assets/compare_demo.gif" width="900">
 </p>
+
+
 ## Installation
 Install dependencies:
 ```bash
