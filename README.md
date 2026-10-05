@@ -55,6 +55,7 @@ bash run_inference.sh
 ## Citation
 
 When using this repository, please cite:
+```
 @InProceedings{CalEve_GeometryAware_MICCAISAT2026,
         author = { Calista, Evelyne AND Chen, Yong-Sheng},
         title = { { Geometry-Aware Conditional 3D Wavelet Diffusion for Pseudo-Healthy Brain MRI Inpainting } },
@@ -65,7 +66,7 @@ When using this repository, please cite:
         month = {pending},
         page = {pending}
 }
-
+```
 
 ## Acknowledgements
 This repository uses dataset [BraTS 2026 Inpainting Challenge](https://challenges.synapse.org/Challenges/DetailsPage/Task4?id=syn74274097).
