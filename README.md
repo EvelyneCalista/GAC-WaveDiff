@@ -11,7 +11,7 @@ Yong-Sheng Chen<sup>1</sup> &nbsp; · &nbsp;
 <sup>1</sup>National Yang Ming Chiao Tung University, Taiwan
 </div>
 <p align="center">
-[Paper] (https://papers.miccai.org/miccai-2026-sat/BraTS_Inpainting_011.html).
+  <a href="https://miccai.org">Paper</a>
 </p>
 
 ### sixth place of BraTS Inpainting 2026
