@@ -11,7 +11,7 @@ Yong-Sheng Chen<sup>1</sup> &nbsp; · &nbsp;
 <sup>1</sup>National Yang Ming Chiao Tung University, Taiwan
 </div>
 
-sixth place of BraTS Inpainting 2026
+### sixth place of BraTS Inpainting 2026
 ## Overview
 
 This repository is for Geometry-Aware Conditional 3D Wavelet Diffusion for Pseudo-Healthy Brain MRI Inpainting, in part of BraTS 2026 Inpainting Challenge
@@ -55,6 +55,16 @@ bash run_inference.sh
 ## Citation
 
 When using this repository, please cite:
+@InProceedings{CalEve_GeometryAware_MICCAISAT2026,
+        author = { Calista, Evelyne AND Chen, Yong-Sheng},
+        title = { { Geometry-Aware Conditional 3D Wavelet Diffusion for Pseudo-Healthy Brain MRI Inpainting } },
+        booktitle = {Medical Image Computing and Computer Assisted Intervention -- MICCAI 2026 Workshops and Challenges},
+        year = {2026},
+        publisher = {Springer Nature Switzerland},
+        volume = {LNCS 17254},
+        month = {pending},
+        page = {pending}
+}
 
 
 ## Acknowledgements
