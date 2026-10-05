@@ -4,9 +4,8 @@
 
 ### Geometry-Aware Conditional 3D Wavelet Diffusion for Pseudo-Healthy Brain MRI Inpainting
 
-**Evelyne Calista<sup>1</sup> &nbsp; · &nbsp;
-Yong-Sheng Chen<sup>1</sup> &nbsp; · &nbsp;
-**
+***Evelyne Calista<sup>1</sup> &nbsp; · &nbsp; Yong-Sheng Chen<sup>1</sup> &nbsp; · &nbsp;***
+
 
 <sup>1</sup>National Yang Ming Chiao Tung University, Taiwan
 </div>
