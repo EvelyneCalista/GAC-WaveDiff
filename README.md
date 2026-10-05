@@ -11,6 +11,7 @@ Yong-Sheng Chen<sup>1</sup> &nbsp; · &nbsp;
 <sup>1</sup>National Yang Ming Chiao Tung University, Taiwan
 </div>
 
+sixth place of BraTS Inpainting 2026
 ## Overview
 
 This repository is for Geometry-Aware Conditional 3D Wavelet Diffusion for Pseudo-Healthy Brain MRI Inpainting, in part of BraTS 2026 Inpainting Challenge
